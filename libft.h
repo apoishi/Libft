@@ -6,7 +6,7 @@
 /*   By: apadilha <apadilha@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/07 14:53:11 by apadilha          #+#    #+#             */
-/*   Updated: 2021/10/10 21:49:01 by apadilha         ###   ########.fr       */
+/*   Updated: 2021/10/11 15:50:05 by apadilha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ char	*ft_itoa(int n);
 void	*ft_memchr(const void *str, int c, size_t n);
 int		ft_memcmp(const void *str1, const void *str2, size_t n);
 void	*ft_memcpy(void *dest, const void *src, size_t n);
-void	*ft_memmove(void *dest, const void *src, size_t n);
+void	**ft_memmove(void *s1, const void *s2, size_t n);
 void	*ft_memset(void *str, int c, size_t n);
 void	ft_putchar_fd(char c, int fd);
 void	ft_putendl_fd(char *s, int fd);
