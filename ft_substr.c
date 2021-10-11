@@ -6,7 +6,7 @@
 /*   By: apadilha <apadilha@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/02 19:15:55 by apadilha          #+#    #+#             */
-/*   Updated: 2021/10/10 20:22:21 by apadilha         ###   ########.fr       */
+/*   Updated: 2021/10/11 11:38:44 by apadilha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,8 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	if ((size_t)(start + len) > ft_strlen(s))
 		len = ft_strlen(s) - (size_t)start;
 	str = (char *)malloc (sizeof(char) * len + 1);
+	if (str == NULL)
+		return (NULL);
 	i = 0;
 	while (s[start + i] && i < len)
 	{
