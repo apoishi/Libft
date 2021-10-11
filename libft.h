@@ -6,7 +6,7 @@
 /*   By: apadilha <apadilha@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/07 14:53:11 by apadilha          #+#    #+#             */
-/*   Updated: 2021/10/10 20:05:57 by apadilha         ###   ########.fr       */
+/*   Updated: 2021/10/10 21:49:01 by apadilha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 
 # include <unistd.h>
 # include <stdlib.h>
-
 
 int		ft_atoi(const char *str);
 void	ft_bzero(void *str, size_t n );
@@ -51,6 +50,5 @@ char	*ft_strtrim(char const *s1, char const *set);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
-
 
 #endif
